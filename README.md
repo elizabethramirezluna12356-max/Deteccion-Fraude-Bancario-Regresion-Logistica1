@@ -34,11 +34,12 @@ pip install pandas numpy scikit-learn matplotlib
 
 Ejecución
 
-1. Descargar el dataset creditcard.csv.
+1. Descargar el dataset creditcard.csv desde Kaggle.
 2. Abrir el archivo Regresion_Logistica_Fraude_Bancario.ipynb en Google Colab.
-3. Subir el archivo creditcard.csv.
+3. Subir el archivo creditcard.csv al entorno de Colab.
 4. Ejecutar las celdas en orden.
-5. Revisar los resultados de entrenamiento y evaluación.
+5. Revisar las matrices generadas por el modelo
+
 
 Proceso Implementado
 
@@ -49,6 +50,18 @@ Proceso Implementado
 5. Entrenamiento de Regresión Logística.
 6. Predicción.
 7. Evaluación mediante Accuracy, Matriz de Confusión y Classification Report.
+
+ Resultados
+
+El modelo fue entrenado utilizando el 80% de los datos y validado con el 20% restante.
+
+Las métricas evaluadas fueron:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Matriz de Confusión
 
 Autor
 
