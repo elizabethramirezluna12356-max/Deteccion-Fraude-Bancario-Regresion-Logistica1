@@ -17,6 +17,7 @@ Características del conjunto de datos:
 Variable objetivo: Clase.
 Clase = 0 → Transacción legítima.
 Clase = 1 → Transacción fraudulenta.
+
 Tecnologías utilizadas
 
 Pitón
@@ -33,31 +34,20 @@ pip install pandas numpy scikit-learn matplotlib
 Ejecución
 
 Descargue el conjunto de datos creditcard.csv desde Kaggle.
-
 Abrir el archivo Regresion_Logistica_Fraude_Bancario.ipynb en Google Colab.
-
 Subir el archivo creditcard.csv al entorno de Colab.
-
 Ejecutar las celdas en orden.
-
 Revisar las matrices generadas por el modelo.
 
 Proceso Implementado
 
 Carga del dataset.
-
 Análisis de datos.
-
 División entrenamiento/prueba (80%-20%).
-
 Escalado de variables.
-
 Entrenamiento de Regresión Logística.
-
 Predicción.
-
 Evaluación mediante Precisión, Matriz de Confusión e Informe de Clasificación.
-
 
 Resultados
 
